@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-docker</actionName>
+            <displayName>docker</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>install</goal>
+                <goal>docker:build</goal>
+                <goal>-Ddocker.host=http://localhost:2375</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-docker build</actionName>
+            <displayName>docker build</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>install</goal>
+                <goal>docker:build</goal>
+            </goals>
+        </action>
+    </actions>
